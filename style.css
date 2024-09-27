@@ -1,25 +1,62 @@
-body{ 
-	color:rgb(255, 255, 255);
-	background-color:black;
+body {
+	color: rgb(255, 255, 255);
+	background-color: black;
+	padding: 100px;
+
 }
-.headerFont{
+
+.headerFont {
 	font-family: "Anton", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 
 }
-.big{
+
+.big {
 	font-size: 389.85px;
 
 }
-.small{
+
+.small {
 	font-size: 120px;
 }
-.bodyText{
+
+.mono {
+
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 48;
+	font-size: 48px;
+	font-style: normal;
+
+}
+
+.bodyText {
 	font-family: "Inter", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 400;
 	font-size: 20px;
 	font-style: normal;
+
+}
+
+h1 {
+	margin: 0px;
+}
+
+.twoColum {
+	display: grid;
+	column-count: 2;
+	column-gap: 100px;
+
+}
+
+.authorName {
+	font-family: "Roboto Mono", monospace;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-size: 24px;
+	font-style: bold;
+
 
 }
