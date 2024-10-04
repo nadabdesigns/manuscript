@@ -1,6 +1,11 @@
 body {
 	color: rgb(255, 255, 255);
 	background-color: black;
+
+
+}
+
+section {
 	padding: 100px;
 
 }
@@ -14,7 +19,7 @@ body {
 
 .big {
 	font-size: 389.85px;
-
+    line-height: 390px;
 }
 
 .small {
@@ -58,5 +63,36 @@ h1 {
 	font-size: 24px;
 	font-style: bold;
 
+
+}
+
+.two {
+	color: black;
+	background-color: white;
+}
+
+.containerDiv {
+	width: 100%;
+	display: flex;
+	gap: 30px;
+}
+.bigSubOne{
+	background-color: #fff;
+	flex: 1; 
+	
+}
+
+.subOne {
+	background-color: #fff;
+	flex: 1; 
+	
+}
+.subTwo{
+	background-color: black;
+	flex: 1;
+}
+.padding{
+	padding-top: 20px;
+	padding-bottom: 20px
 
 }
