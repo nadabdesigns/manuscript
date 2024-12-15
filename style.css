@@ -5,21 +5,69 @@ body {
 
 }
 
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	
+}
+
 section {
 	padding: 100px;
+	/* display: grid;
+	grid-template-columns: repeat(4, 1fr); */
+
+}
+.sectionDiv{
+
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	
+	padding-top: 0%;
+	padding-bottom: 05;
+
+}
+.divOne{
+	
+}
+
+.headerFont,
+h2 {
+	font-family: "Anton", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	white-space: nowrap;
+	/* overflow: hidden; */
+	text-overflow: ellipsis;
 
 }
 
-.headerFont {
-	font-family: "Anton", sans-serif;
-	font-weight: 400;
-	font-style: normal;
+.grid {
+	grid-column-start: 1;
+	grid-column-end: 5;
+	
+}
 
+
+
+h2 {
+	font-size: 300px;
+}
+
+.block {
+	display: flex;
+	background-color: aqua;
+	width: 100%;
 }
 
 .big {
 	font-size: 389.85px;
-    line-height: 390px;
+	line-height: 390px;
 }
 
 .small {
@@ -69,30 +117,38 @@ h1 {
 .two {
 	color: black;
 	background-color: white;
+	display: flex;
+	gap: 30px;
+	flex-direction: column;
+
+
 }
 
 .containerDiv {
 	width: 100%;
 	display: flex;
+
 	gap: 30px;
 }
-.bigSubOne{
+
+.bigSubOne {
 	background-color: #fff;
-	flex: 1; 
-	
+	flex: 1;
+
 }
 
 .subOne {
 	background-color: #fff;
-	flex: 1; 
-	
+	flex: 1;
+
 }
-.subTwo{
+
+.subTwo {
 	background-color: black;
 	flex: 1;
 }
-.padding{
+
+.padding {
 	padding-top: 20px;
 	padding-bottom: 20px
-
 }
