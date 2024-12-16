@@ -11,12 +11,50 @@ body {
 
 html,
 body {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	overflow-x: hidden;
 	
+	
 }
+.newSection{
+ display: grid;
+ grid-template-columns: repeat(5,1fr);
+ gap: 30px;
+/* rows are automatcially added */
+}
+.item1 {
+	grid-column: 2 / 5;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-size: 23px;
+	font-style: normal;
+	line-height: 50px;
+  }
+  .item2 {
+	grid-column: 3 / 6;
+		font-family: "Inter", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-size: 30px;
+		font-style: normal;
+		border-style: dashed;
+		border: 2px dashed rgb(255, 255, 255);
+		color: rgb(255, 255, 255);
+		line-height: 3rem;
+		padding: 20px;
+		font-family: "Anton", sans-serif;
+		font-style: italic;
+  }
+  span{ background-color: rgb(255, 255, 255);
+	text-decoration-line: overline underline;
+	color: black;
 
+	
+	
+
+  }
 section {
 	padding: 100px;
 	/* display: grid;
@@ -61,7 +99,7 @@ h2 {
 
 .block {
 	display: flex;
-	background-color: aqua;
+	background-color: black;
 	width: 100%;
 }
 
@@ -97,12 +135,7 @@ h1 {
 	margin: 0px;
 }
 
-.twoColum {
-	display: grid;
-	column-count: 2;
-	column-gap: 100px;
 
-}
 
 .authorName {
 	font-family: "Roboto Mono", monospace;
@@ -110,6 +143,7 @@ h1 {
 	font-weight: 100;
 	font-size: 24px;
 	font-style: bold;
+	grid-column: 4 / 6;
 
 
 }
