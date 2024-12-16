@@ -1,10 +1,14 @@
 body {
-	color: rgb(255, 255, 255);
-	background-color: black;
+	color: var(--white--);
+	background-color: var(--black--);
 
 
 }
-
+:root {
+	--black--: rgb(0, 0, 0);
+	--white--:rgb(255, 255, 255);
+	
+  }
 * {
 	box-sizing: border-box;
 }
@@ -40,16 +44,16 @@ body {
 		font-size: 30px;
 		font-style: normal;
 		border-style: dashed;
-		border: 2px dashed rgb(255, 255, 255);
-		color: rgb(255, 255, 255);
+		border: 2px dashed var(--white--);
+		color: var(--white--);
 		line-height: 3rem;
 		padding: 20px;
 		font-family: "Anton", sans-serif;
 		font-style: italic;
   }
-  span{ background-color: rgb(255, 255, 255);
+  span{ background-color: var(--white--);
 	text-decoration-line: overline underline;
-	color: black;
+	color: var(--black--);
 
 	
 	
@@ -99,7 +103,7 @@ h2 {
 
 .block {
 	display: flex;
-	background-color: black;
+	background-color: var(--black--);
 	width: 100%;
 }
 
@@ -149,7 +153,7 @@ h1 {
 }
 
 .two {
-	color: black;
+	color: var(--black--);
 	background-color: white;
 	display: flex;
 	gap: 30px;
@@ -178,7 +182,7 @@ h1 {
 }
 
 .subTwo {
-	background-color: black;
+	background-color: var(--black--);
 	flex: 1;
 }
 
